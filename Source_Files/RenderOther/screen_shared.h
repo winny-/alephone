@@ -48,8 +48,9 @@ extern SDL_Surface *world_pixels;
 #define DESIRED_SCREEN_HEIGHT 480
 
 // Biggest possible of those defined
-#define MAXIMUM_WORLD_WIDTH 1900
-#define MAXIMUM_WORLD_HEIGHT 1200
+// winny-: Use "8K" (7680x4320)
+#define MAXIMUM_WORLD_WIDTH 7680
+#define MAXIMUM_WORLD_HEIGHT 4320
 
 #define DEFAULT_WORLD_WIDTH 640
 #define DEFAULT_WORLD_HEIGHT 320
